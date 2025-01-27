@@ -16,6 +16,7 @@
   --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
   --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
   --Grayish-Blue: hsl(212, 23%, 69%);
+  /* used */
   --Light-Grayish-Blue: hsl(210, 46%, 95%);
 }
 
@@ -25,6 +26,41 @@ html {
 
 body {
   font-family: "Main";
+  background-color: var(--Light-Grayish-Blue);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.article {
+  width: 725px;
+  height: 280px;
+}
+
+.article-content {
+  display: flex;
+}
+
+.article-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  border: none;
+}
+
+.social-nav {
+  display: none;
+}
+
+.social-nav ul {
+  display: flex;
+  list-style-type: none;
 }
 
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
