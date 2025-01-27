@@ -143,6 +143,28 @@ main {
     transparent;
 }
 
+.social-nav.show {
+  visibility: visible;
+  animation: fadeIn 1s;
+}
+
+.button:active {
+  background-color: var(--Very-Dark-Grayish-Blue);
+}
+
+.button:active .share {
+  filter: brightness(400%);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 }

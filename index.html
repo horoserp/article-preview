@@ -86,7 +86,7 @@
             <h2 class="author">Michelle Appleton</h2>
             <h3 class="article-date">28 Jun 2020</h3>
           </div>
-          <button class="button">
+          <button class="button" onclick="toggleVisibility()">
             <img
               class="share"
               src="./assets/images/icon-share.svg"
@@ -106,8 +106,8 @@
                       class="facebook"
                       src="./assets/images/icon-facebook.svg"
                       alt="Facebook Icon"
-                      width="24px"
-                      height="24px"
+                      width="20px"
+                      height="20px"
                     />
                   </a>
                 </li>
@@ -120,8 +120,8 @@
                       class="x"
                       src="./assets/images/icon-twitter.svg"
                       alt="X Icon"
-                      width="24px"
-                      height="24px"
+                      width="20px"
+                      height="20px"
                     />
                   </a>
                 </li>
@@ -134,8 +134,8 @@
                       class="pinterest"
                       src="./assets/images/icon-pinterest.svg"
                       alt="Pinterest Icon"
-                      width="24px"
-                      height="24px"
+                      width="20px"
+                      height="20px"
                     />
                   </a>
                 </li>
@@ -145,5 +145,12 @@
         </div>
       </div>
     </main>
+    <script>
+      function toggleVisibility() {
+        var popup = document.getElementsByClassName("social-nav");
+        console.log(popup);
+        popup[0].classList.toggle("show");
+      }
+    </script>
   </body>
 </html>
