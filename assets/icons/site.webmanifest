@@ -1,0 +1,41 @@
+{
+  "name": "Social Proof Section | FEM",
+  "short_name": "Review Page",
+  "icons": [
+    {
+      "src": "https://horoserp.github.io/social-proof/assets/icons/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://horoserp.github.io/social-proof/assets/icons/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://horoserp.github.io/social-proof/assets/images/desktop-screenshot.jpeg",
+      "sizes": "1440x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Social Proof Section Component"
+    },
+    {
+      "src": "https://horoserp.github.io/social-proof/assets/images/mobile-screenshot.jpeg",
+        "sizes": "600x1362",
+        "type": "image/png",
+        "form_factor": "narrow",
+        "label": "Social Proof Section Component"
+      }
+    ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "description": "Review Page.",
+  "start_url": ".",
+  "id": "/assets/icons/",
+  "orientation": "any"
+}
