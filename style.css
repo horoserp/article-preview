@@ -13,13 +13,9 @@
 
 /* CSS Variables */
 :root {
-  /* used */
   --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
-  /* used */
   --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
-  /* used */
   --Grayish-Blue: hsl(212, 23%, 69%);
-  /* used */
   --Light-Grayish-Blue: hsl(210, 46%, 95%);
 }
 
@@ -38,6 +34,12 @@ main {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.container {
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0px 20px 50px 0px var(--Grayish-Blue);
 }
 
 .drawers {
