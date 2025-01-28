@@ -123,7 +123,7 @@ main {
   list-style-type: none;
 }
 
-.social-nav ul h2 {
+.social-nav ul .header {
   color: var(--Grayish-Blue);
   font-size: 1rem;
   font-weight: 500;
