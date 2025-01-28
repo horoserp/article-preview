@@ -58,6 +58,7 @@ main {
 
 .article-content {
   display: flex;
+  position: relative;
 }
 
 .article h1 {
@@ -100,7 +101,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   width: 32px;
   height: 32px;
   border: none;
@@ -111,7 +111,8 @@ main {
   visibility: hidden;
   background: var(--Very-Dark-Grayish-Blue);
   position: absolute;
-  top: -80px;
+  bottom: 170%;
+  right: -29%;
   padding: 1rem 2.5rem;
   border-radius: 12px;
 }
