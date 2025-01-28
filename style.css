@@ -108,11 +108,11 @@ main {
 }
 
 .social-nav {
-  visibility: hidden;
+  /* visibility: hidden; */
   background: var(--Very-Dark-Grayish-Blue);
   position: absolute;
-  bottom: 170%;
-  right: -31%;
+  bottom: 68px;
+  left: 220px;
   padding: 1rem 2.5rem;
   border-radius: 12px;
 }
