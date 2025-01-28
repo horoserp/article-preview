@@ -64,7 +64,6 @@ main {
 .article h1 {
   font-size: 1.5rem;
   font-weight: 700;
-  letter-spacing: 1.2;
   margin-bottom: 18px;
 }
 
@@ -108,7 +107,7 @@ main {
 }
 
 .social-nav {
-  /* visibility: hidden; */
+  visibility: hidden;
   background: var(--Very-Dark-Grayish-Blue);
   position: absolute;
   bottom: 68px;
@@ -171,6 +170,34 @@ main {
 
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 70%;
+  }
+
+  .drawers,
+  .article {
+    width: 100%;
+  }
+
+  .drawers {
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+    height: 186px;
+    object-fit: cover;
+  }
+
+  .article {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .article h1 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
