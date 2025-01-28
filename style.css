@@ -159,6 +159,14 @@ main {
   filter: brightness(400%);
 }
 
+.button-dark {
+  background-color: var(--Desaturated-Dark-Blue);
+}
+
+.image-white {
+  filter: brightness(400%);
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -197,6 +205,30 @@ main {
   .article h1 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
+  }
+
+  .button {
+    z-index: 1;
+    margin-top: 0.7rem;
+  }
+
+  .social-nav {
+    position: fixed;
+    bottom: 100px;
+    left: 20px;
+    width: 90%;
+    padding: 1.3rem 2.5rem;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+
+  .social-nav ul::after {
+    margin-left: 0px;
+    border-width: 0px;
+  }
+
+  .social-nav ul .header {
+    padding-left: 8px;
   }
 }
 

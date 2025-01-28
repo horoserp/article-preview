@@ -149,9 +149,12 @@
     </main>
     <script>
       function toggleVisibility() {
-        var popup = document.getElementsByClassName("social-nav");
-        console.log(popup);
+        const popup = document.getElementsByClassName("social-nav");
+        const button = document.getElementsByClassName("button");
+        const image = document.getElementsByClassName("share");
         popup[0].classList.toggle("show");
+        button[0].classList.toggle("button-dark");
+        image[0].classList.toggle("image-white");
       }
     </script>
   </body>
