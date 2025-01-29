@@ -107,12 +107,17 @@ main {
 }
 
 .social-nav {
+  display: flex;
+  align-items: center;
   visibility: hidden;
   background: var(--Very-Dark-Grayish-Blue);
   position: absolute;
-  bottom: 68px;
-  left: 220px;
-  padding: 1rem 2.5rem;
+  /* bottom: 68px; */
+  bottom: 0px;
+  /* left: 220px; */
+  left: 0px;
+  height: 70px;
+  padding: 1rem 0rem;
   border-radius: 12px;
   box-shadow: 0px 5px 20px 0px var(--Grayish-Blue);
 }
