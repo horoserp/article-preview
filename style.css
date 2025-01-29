@@ -112,12 +112,10 @@ main {
   visibility: hidden;
   background: var(--Very-Dark-Grayish-Blue);
   position: absolute;
-  /* bottom: 68px; */
-  bottom: 0px;
-  /* left: 220px; */
-  left: 0px;
-  height: 70px;
-  padding: 1rem 0rem;
+  bottom: 170%;
+  right: -29%;
+  height: 50px;
+  padding: 1rem 2.1rem;
   border-radius: 12px;
   box-shadow: 0px 5px 20px 0px var(--Grayish-Blue);
 }
@@ -185,7 +183,7 @@ main {
 @media only screen and (max-width: 600px) {
   .container {
     flex-direction: column;
-    justify-content: center;
+    justify-content: stretch;
     width: 90%;
     height: 70%;
   }
@@ -203,8 +201,12 @@ main {
   }
 
   .article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 10px;
+    height: 100%;
   }
 
   .article h1 {
@@ -214,14 +216,13 @@ main {
 
   .button {
     z-index: 1;
-    margin-top: 0.7rem;
+    margin-top: 0.1rem;
   }
 
   .social-nav {
-    position: fixed;
-    bottom: 100px;
-    left: 20px;
-    width: 90%;
+    bottom: 0px;
+    left: 0px;
+    width: 90vw;
     padding: 1.3rem 2.5rem;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
