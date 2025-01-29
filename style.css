@@ -227,8 +227,8 @@ main {
   }
 
   .social-nav {
-    bottom: -22%;
-    right: -16%;
+    bottom: 0;
+    right: 0;
     /* width: 132%; */
     width: inherit;
     height: 70px;
