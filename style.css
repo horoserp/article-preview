@@ -109,6 +109,14 @@ main {
   border: none;
   border-radius: 50%;
   cursor: pointer;
+
+  &:active {
+    background-color: var(--Very-Dark-Grayish-Blue);
+
+    & .share {
+      filter: brightness(400%);
+    }
+  }
 }
 
 .social-nav {
@@ -164,14 +172,6 @@ main {
 .social-nav.show {
   visibility: visible;
   animation: fadeIn 1s;
-}
-
-.button:active {
-  background-color: var(--Very-Dark-Grayish-Blue);
-}
-
-.button:active .share {
-  filter: brightness(400%);
 }
 
 .button-dark {
